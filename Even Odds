@@ -1,0 +1,18 @@
+#include <bits/stdtr1c++.h>
+#include <cmath>
+using namespace std;
+int main()
+{
+  long long int odd,n,k;
+  cin>>n>>k;
+  odd = (n + 1) / 2;
+  
+  if (k <= odd)
+  {
+    cout << (k * 2) - 1 << endl;
+  }
+  else
+  {
+    cout << (k - odd) * 2 << endl;
+  }
+}
